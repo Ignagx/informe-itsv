@@ -1,5 +1,5 @@
 # informe-utn
-Clase de LaTex para informes y trabajos de la UTN-FRC
+Clase de LaTex para informes y apuntes de ITSV
 
 ## dependencias
 En arch linux necesitas instalar los paquetes: *texlive-latex texlive-latexrecommended texlive-latexextra*
@@ -13,7 +13,7 @@ Para instalar esta clase en tu sistema simplemente corre el script install.sh
 ```
 ./install.sh
 ```
-O simplemente puedes agregar los archivos *informeutn.cls* y *UTN_logo.png* en el mismo directorio de tu archivo .tex
+O simplemente puedes agregar los archivos *informeitsv.cls* y *ITSV_logo.png* en el mismo directorio de tu archivo .tex
 
 ## configuración
 La clase tiene varios parametros configurables. Algunos de ellos son obligatorios, otros no.
@@ -30,7 +30,7 @@ La clase tiene varios parametros configurables. Algunos de ellos son obligatorio
 ```
 \materia{}
 \titulo{}
-\comision{}
+\curso{}
 \autores{}
 \fecha{}
 ```

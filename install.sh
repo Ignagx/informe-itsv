@@ -1,14 +1,14 @@
 #!/bin/bash
 
-DEST=~/texmf/tex/latex/informes-utn
+DEST=~/texmf/tex/latex/informes-itsv
 
 echo "📄 Instalando clase informeutn en $DEST"
 
 mkdir -p "$DEST"
 
-cp informeutn.cls "$DEST"
+cp informeitsv.cls "$DEST"
 
-cp UTN_logo.png "$DEST"
+cp ITSV_logo.png "$DEST"
 
 mktexlsr ~/texmf
 

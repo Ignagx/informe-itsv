@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{informeutn}[2026/09/05 Clase para informes UTN-FRC]
+\ProvidesClass{informeutn}[2026/09/05 Clase para informes ITSV]
 
 \newif\ifchaptersright
 \chaptersrightfalse % valor por defecto
@@ -65,7 +65,7 @@
 % Encabezados y pies de página
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{UTN-FRC}
+\lhead{ITSV}
 \chead{\@materia}
 \rhead{\@comision}
 \cfoot{\thepage}
@@ -160,9 +160,9 @@
   \begin{titlepage}
     \centering
     \vspace*{1cm}
-    \includegraphics[scale=0.3]{UTN_logo.png}\par\vspace{1cm}
-    {\Huge Universidad Tecnológica Nacional\\
-    Facultad Regional Córdoba\par}
+    \includegraphics[scale=1.8]{ITSV_logo.png}\par\vspace{1cm}
+    {\Huge Instituto Técnico Salesiano\\
+    Villada\par}
     \vspace{2cm}
     {\Huge \bfseries \@titulo \par}
     {\Large \ \@subtitulo \par}
