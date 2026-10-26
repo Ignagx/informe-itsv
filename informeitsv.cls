@@ -67,7 +67,7 @@
 \fancyhf{}
 \lhead{ITSV}
 \chead{\@materia}
-\rhead{\@comision}
+\rhead{\@curso}
 \cfoot{\thepage}
 \setlength{\headheight}{15pt}
 \setlength{\headsep}{20pt}
@@ -75,7 +75,7 @@
 
 % Comandos personalizados
 \newcommand{\materia}[1]{\def\@materia{#1}}
-\newcommand{\comision}[1]{\def\@comision{#1}}
+\newcommand{\curso}[1]{\def\@curso{#1}}
 \newcommand{\titulo}[1]{\def\@titulo{#1}}
 \newcommand{\@subtitulo}{}  % Inicialmente vacío
 \newcommand{\subtitulo}[1]{\def\@subtitulo{#1}}
@@ -169,7 +169,7 @@
     \vspace{1.5cm}
     {\LARGE \@materia \par}
     \vspace{0.2cm}
-    {\Large \@comision\par}
+    {\Large \@curso\par}
     \vfill
     {\Large \@autores \par}
     \vspace{1cm}
